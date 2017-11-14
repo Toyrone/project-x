@@ -5,6 +5,7 @@ var browserSync = require('browser-sync').create();
 
 gulp.task('sass', function() {
   gulp.src('template/assets/scss/**/*.scss')
+    .pipe(concat('main.scss'))
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('template/assets/css'));
 });

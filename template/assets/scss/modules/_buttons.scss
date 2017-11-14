@@ -1,0 +1,17 @@
+.btn-default {
+  border-radius: 25px;
+  background-color: white;
+  font-size: $font-size;
+  color: #fff;
+  height: 40px;
+}
+
+.btn-blue {
+  background-color: $brand-blue;
+  padding: 7px 30px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
