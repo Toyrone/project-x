@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="16px" viewBox="0 0 24 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>E9020B5E-364E-4492-800D-A2D8113E9632</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="reciept" transform="translate(-1146.000000, -130.000000)">
+            <g id="Group-4" transform="translate(1066.000000, 126.000000)">
+                <g id="ic_cloud_download" transform="translate(80.000000, 0.000000)">
+                    <g id="Icon-24px">
+                        <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                        <path d="M19.35,10.04 C18.67,6.59 15.64,4 12,4 C9.11,4 6.6,5.64 5.35,8.04 C2.34,8.36 0,10.91 0,14 C0,17.31 2.69,20 6,20 L19,20 C21.76,20 24,17.76 24,15 C24,12.36 21.95,10.22 19.35,10.04 L19.35,10.04 Z M17,13 L12,18 L7,13 L10,13 L10,9 L14,9 L14,13 L17,13 L17,13 Z" id="Shape" fill="#0575E6"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

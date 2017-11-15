@@ -13,6 +13,7 @@
   background-size: 50vw 100vh;
   background-repeat: no-repeat;
   height: 100vh;
+  color: $font-grey;
 }
 
 .sub-section {
@@ -33,4 +34,118 @@
   display: flex;
   padding-right: 30px;
   padding-left: 30px;
+}
+.main-page {
+  margin-top: 100px;
+  background-color: $bg-grey;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.page-header {
+  padding-top: 32px;
+  padding-bottom: 50px;
+  color: $font-grey;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+
+  h3 {
+    text-transform: uppercase;
+  }
+}
+
+.page__actions {
+  color: $brand-blue;
+  a {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 4px;
+    &:hover {
+      text-decoration: none;
+      color: inherit;
+      opacity: 0.7;
+    }
+    img {
+      padding: 0 0 4px 6px;
+    }
+  }
+}
+
+.page__actions--foot {
+  a {
+    padding: 0;
+  }
+}
+
+.page-body {
+  background-color: $bg-color;
+  padding-top: 80px;
+  padding-left: 54px;
+  padding-right: 54px;
+  padding-bottom: 200px;
+  color: $font-grey;
+}
+.flex-btw {
+  display: flex;
+  justify-content: space-between;
+}
+.page-body__head {
+  display: flex;
+  justify-content: space-between;
+}
+.page-body__main {
+  padding-top: 69px;
+}
+.page-meta {
+  span {
+    font-size: 14px;
+    color: #9b9b9b;
+  }
+}
+.student-detail {
+  padding-top: 30px;
+  padding-bottom: 54px;
+  border-bottom: $page-border-b;
+}
+.summary {
+  margin-top: 54px;
+  font-size: 1.4rem;
+  color: #9b9b9b;
+  .summary__title {
+    font-weight: 500;
+    padding-bottom: 24px;
+  }
+  .page-meta {
+    padding-bottom: 8px;
+    border-bottom: $page-border-b;
+  }
+}
+.summary__list-item {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: $page-border-b;
+}
+.desc {
+  p {
+    font-size: 14px;
+    font-weight: normal;
+  }
+}
+.amount {
+
+}
+.summary__total {
+  padding-top: 40px;
+  h3 {
+    color: $font-grey;
+  }
+  h5 {
+    padding-top: 5px;
+    padding-right: 76px;
+  }
+}
+
+.page-foot {
+  margin-top: 83px;
+  padding-bottom: 200px;
 }
