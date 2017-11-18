@@ -10,6 +10,19 @@
   background-color: $brand-blue;
   padding: 7px 30px;
 }
+.btn-white {
+  background-color: #fff;
+  color: $brand-blue;
+  padding: 3px 30px;
+  margin-left: 40px;
+  border: 1px solid #2f80ed;
+  &:hover {
+    color: #fff;
+    background-color: $brand-blue;
+    cursor: pointer;
+    border: 1px solid #fff;
+  }
+}
 
 .btn:hover {
   cursor: pointer;

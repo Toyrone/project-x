@@ -20,26 +20,83 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-  
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Logo</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-        </ul>
-        
-        <form class="form-inline my-2 my-lg-0">
-          <ul class="navbar-nav flex-btw">
-            <li class="nav-link"><a class="nav-item" href="check-payment.html">Check Payment</a></li>
-            <li class="nav-link"><a class="nav-item" href="">Register</a></li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
           </ul>
-          <button class="btn-default btn-blue" type="submit">Log In</button>
-        </form>
-      </div>
-    </nav>
+
+          <form class="form-inline">
+            <ul class="navbar-nav flex-btw">
+              <li class="nav-link"><a class="nav-item" href="check-payment.html">Check Payment</a></li>
+              <li class="nav-link"><a class="nav-item" href="">Register</a></li>
+            </ul>
+            <button class="btn-default btn-white" type="submit">Log In</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="wrapper">
+        <div class="grid">
+          <div class="grid-column-side">
+            <h1 class="hero-caption">Lorem ipsum dolor sit amet <br> adipiscing elit. </h1>
+            <p class="hero-text">Curabitur lobortis id lorem id bibendum. Ut id <br>consectetur magna. Quisque volutpat augue enim.</p>
+
+            <form class="flex-form flex-form--landing">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Enter student unique number">
+                <button class="input-group-addon addon--send"></button>
+              </div>
+            </form>
+          </div>
+
+          <div class="grid-column-side grid-column--right">
+            <div class="features">
+              <h4 class="features__title">Key Features</h4>
+              <div class="features__body">
+
+                <div class="features__item">
+                  <div class="features__item-icon">
+                    <div class="svg svg--secured"></div>
+                  </div>
+                  <h5 class="features__item-secured">Secured</h5>
+                  <p class="features__item-body">Curabitur lobortis</p>
+                </div>
+
+                <div class="features__item">
+                  <div class="features__item-icon">
+                    <div class="svg svg--secured"></div>
+                  </div>
+                  <h5 class="features__item-fast">Fast</h5>
+                  <p class="features__item-body">Curabitur lobortis</p>
+                </div>
+
+                <div class="features__item">
+                  <div class="features__item-icon">
+                    <div class="svg svg--support"></div>
+                  </div>
+                  <h5 class="features__item-title">Support</h5>
+                  <p class="features__item-body">Curabitur lobortis</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </section>
+
+    </main>
+
+
 
     </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>

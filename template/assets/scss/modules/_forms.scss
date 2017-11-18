@@ -23,3 +23,42 @@ input[type='text'] {
     padding: 5px;
   }
 }
+
+.flex-form--landing {
+  margin-top: 0;
+  padding-top: 35px;
+  input[type='text'] {
+    position: relative;
+    border: none;
+  }
+}
+.addon--send {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  width: 50px;
+  background: #fff;
+  border: none;
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    background: url(../img/icons/enter-icon.png) 100% no-repeat;
+    // background-repeat: no-repeat;
+    background-size: contain;
+    height: 35px;
+    width: 35px;
+    right: 8px;
+  }
+}
+
+// .send {
+//   content: '';
+//   position: absolute;
+//   background-image: url(assets/img/icon/enter-icon.png);
+//   background-repeat: no-repeat;
+//   height: 40px;
+//   width: 44px;
+//   right: 0;
+// }
