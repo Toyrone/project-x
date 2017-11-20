@@ -49,10 +49,6 @@ header {
   padding: 0;
   margin: 0; }
 
-.flex-end {
-  display: flex;
-  justify-content: flex-end; }
-
 .main-section {
   background-image: linear-gradient(182deg, #0575e6, #00c6ff);
   background-size: 50vw 100vh;
@@ -84,6 +80,11 @@ header {
   padding-left: 150px;
   padding-right: 150px; }
 
+.main-page--alt {
+  padding: 0; }
+  .main-page--alt .page-body {
+    padding-top: 0; }
+
 .page-header {
   padding-top: 32px;
   padding-bottom: 50px;
@@ -91,6 +92,11 @@ header {
   font-size: 14px;
   display: flex;
   justify-content: space-between; }
+  .page-header--alt {
+    padding-top: 27px;
+    padding-bottom: 37px;
+    padding-left: 150px;
+    padding-right: 150px; }
   .page-header h3 {
     text-transform: uppercase; }
 
@@ -118,16 +124,43 @@ header {
   padding-bottom: 200px;
   color: #4a4a4a; }
 
-.flex-btw {
-  display: flex;
-  justify-content: space-between; }
+.page-body--alt {
+  padding-left: 0;
+  padding-right: 0; }
 
 .page-body__head {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 150px; }
 
 .page-body__main {
   padding-top: 69px; }
+
+.page-body__main--alt {
+  background-color: #eee;
+  padding-top: 48px;
+  padding-bottom: 70px; }
+  .page-body__main--alt .nav {
+    background-color: #fff;
+    padding-top: 37px;
+    padding-left: 150px;
+    padding-right: 150px; }
+    .page-body__main--alt .nav a {
+      font-size: 17px;
+      color: #9b9b9b;
+      padding-bottom: 20px;
+      margin-left: 30px;
+      margin-right: 30px; }
+      .page-body__main--alt .nav a.active {
+        display: block;
+        font-size: 20px;
+        padding-top: 5px;
+        color: #4a4a4a;
+        border-bottom: 2px solid #0575e6;
+        font-weight: 500; }
+      .page-body__main--alt .nav a:first-child {
+        padding-left: 0; }
 
 .page-meta span {
   font-size: 14px;
@@ -245,6 +278,52 @@ header {
   object-fit: contain;
   background-repeat: no-repeat;
   background-position: center; }
+
+.page-header__title--alt {
+  display: flex;
+  flex-direction: row; }
+  .page-header__title--alt h5 {
+    text-transform: uppercase;
+    font-weight: normal; }
+  .page-header__title--alt h6 {
+    font-weight: normal;
+    padding: .1em 1.5em; }
+
+.payment-details {
+  padding-top: 71px;
+  padding-bottom: 79px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #9b9b9b; }
+
+.payment-details__student {
+  display: flex;
+  flex-direction: row;
+  flex: 2.5; }
+  .payment-details__student .student__body {
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 19px;
+    padding-right: 15px;
+    border-right: 2px solid #ebebf2;
+    flex: 1; }
+    .payment-details__student .student__body h5 {
+      color: #4a4a4a; }
+
+.payment-details__school {
+  padding: 19px 15px 0px;
+  flex: 1;
+  padding-left: 40px; }
+  .payment-details__school h5 {
+    color: #4a4a4a; }
+
+.img-student {
+  width: 250px;
+  height: auto;
+  border-radius: 50%; }
 
 .btn-default {
   border-radius: 25px;
@@ -376,10 +455,6 @@ header {
   padding: 0;
   margin: 0; }
 
-.flex-end {
-  display: flex;
-  justify-content: flex-end; }
-
 .main-section {
   background-image: linear-gradient(182deg, #0575e6, #00c6ff);
   background-size: 50vw 100vh;
@@ -411,6 +486,11 @@ header {
   padding-left: 150px;
   padding-right: 150px; }
 
+.main-page--alt {
+  padding: 0; }
+  .main-page--alt .page-body {
+    padding-top: 0; }
+
 .page-header {
   padding-top: 32px;
   padding-bottom: 50px;
@@ -418,6 +498,11 @@ header {
   font-size: 14px;
   display: flex;
   justify-content: space-between; }
+  .page-header--alt {
+    padding-top: 27px;
+    padding-bottom: 37px;
+    padding-left: 150px;
+    padding-right: 150px; }
   .page-header h3 {
     text-transform: uppercase; }
 
@@ -445,16 +530,43 @@ header {
   padding-bottom: 200px;
   color: #4a4a4a; }
 
-.flex-btw {
-  display: flex;
-  justify-content: space-between; }
+.page-body--alt {
+  padding-left: 0;
+  padding-right: 0; }
 
 .page-body__head {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 150px; }
 
 .page-body__main {
   padding-top: 69px; }
+
+.page-body__main--alt {
+  background-color: #eee;
+  padding-top: 48px;
+  padding-bottom: 70px; }
+  .page-body__main--alt .nav {
+    background-color: #fff;
+    padding-top: 37px;
+    padding-left: 150px;
+    padding-right: 150px; }
+    .page-body__main--alt .nav a {
+      font-size: 17px;
+      color: #9b9b9b;
+      padding-bottom: 20px;
+      margin-left: 30px;
+      margin-right: 30px; }
+      .page-body__main--alt .nav a.active {
+        display: block;
+        font-size: 20px;
+        padding-top: 5px;
+        color: #4a4a4a;
+        border-bottom: 2px solid #0575e6;
+        font-weight: 500; }
+      .page-body__main--alt .nav a:first-child {
+        padding-left: 0; }
 
 .page-meta span {
   font-size: 14px;
@@ -573,6 +685,52 @@ header {
   background-repeat: no-repeat;
   background-position: center; }
 
+.page-header__title--alt {
+  display: flex;
+  flex-direction: row; }
+  .page-header__title--alt h5 {
+    text-transform: uppercase;
+    font-weight: normal; }
+  .page-header__title--alt h6 {
+    font-weight: normal;
+    padding: .1em 1.5em; }
+
+.payment-details {
+  padding-top: 71px;
+  padding-bottom: 79px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #9b9b9b; }
+
+.payment-details__student {
+  display: flex;
+  flex-direction: row;
+  flex: 2.5; }
+  .payment-details__student .student__body {
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 19px;
+    padding-right: 15px;
+    border-right: 2px solid #ebebf2;
+    flex: 1; }
+    .payment-details__student .student__body h5 {
+      color: #4a4a4a; }
+
+.payment-details__school {
+  padding: 19px 15px 0px;
+  flex: 1;
+  padding-left: 40px; }
+  .payment-details__school h5 {
+    color: #4a4a4a; }
+
+.img-student {
+  width: 250px;
+  height: auto;
+  border-radius: 50%; }
+
 .btn-default {
   border-radius: 25px;
   background-color: white;
@@ -658,5 +816,9 @@ input[type='text'] {
 .flex-end {
   display: flex;
   justify-content: flex-end; }
-  .flex-end .nav-link {
-    padding-right: 1rem; }
+
+.flex-btw {
+  display: flex;
+  justify-content: space-between; }
+  .flex-btw .nav-link:not(:last-of-type) {
+    padding-right: 1.5rem !important; }

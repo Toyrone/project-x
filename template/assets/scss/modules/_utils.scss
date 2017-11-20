@@ -4,7 +4,12 @@
 .flex-end {
   display: flex;
   justify-content: flex-end;
-  .nav-link {
-    padding-right: 1rem;
+
+}
+.flex-btw {
+  display: flex;
+  justify-content: space-between;
+  .nav-link:not(:last-of-type) {
+    padding-right: 1.5rem!important;
   }
 }

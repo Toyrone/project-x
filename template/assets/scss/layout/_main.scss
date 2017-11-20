@@ -3,10 +3,10 @@
   margin: 0;
 }
 
-.flex-end {
-  display: flex;
-  justify-content: flex-end;
-}
+// .flex-end {
+//   display: flex;
+//   justify-content: flex-end;
+// }
 
 .main-section {
   background-image: linear-gradient( 182deg, $brand-blue, $brand-light-blue);
@@ -41,6 +41,14 @@
   padding-left: 150px;
   padding-right: 150px;
 }
+.main-page--alt {
+  padding: 0;
+  .page-body {
+    padding-top: 0;
+    // padding-left: 150px;
+    // padding-right: 150px;
+  }
+}
 .page-header {
   padding-top: 32px;
   padding-bottom: 50px;
@@ -48,7 +56,13 @@
   font-size: 14px;
   display: flex;
   justify-content: space-between;
-
+  // .page-header--alt
+  &--alt {
+    padding-top: 27px;
+    padding-bottom: 37px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
   h3 {
     text-transform: uppercase;
   }
@@ -85,16 +99,49 @@
   padding-bottom: 200px;
   color: $font-grey;
 }
-.flex-btw {
-  display: flex;
-  justify-content: space-between;
+.page-body--alt {
+  padding-left: 0;
+  padding-right: 0;
 }
 .page-body__head {
   display: flex;
   justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 .page-body__main {
   padding-top: 69px;
+}
+.page-body__main--alt {
+  background-color: #eee;
+  padding-top: 48px;
+  padding-bottom: 70px;
+
+  .nav {
+    background-color: #fff;
+    padding-top: 37px;
+    padding-left: 150px;
+    padding-right: 150px;
+    a {
+      font-size: 17px;
+      color: #9b9b9b;
+      padding-bottom: 20px;
+      margin-left: 30px;
+      margin-right: 30px;
+      // border-bottom: 2px solid $brand-blue;
+      &.active {
+        display: block;
+        font-size: 20px;
+        padding-top: 5px;
+        color: #4a4a4a;
+        border-bottom: 2px solid $brand-blue;
+        font-weight: 500;
+      }
+      &:first-child {
+        padding-left: 0;
+      }
+    }
+  }
 }
 .page-meta {
   span {
@@ -228,4 +275,55 @@
   object-fit: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+.page-header__title--alt {
+  display: flex;
+  flex-direction: row;
+  h5 {
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+  h6 {
+    font-weight: normal;
+    padding: .1em 1.5em;
+  }
+}
+.payment-details {
+  padding-top: 71px;
+  padding-bottom: 79px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #9b9b9b;
+}
+.payment-details__student {
+  display: flex;
+  flex-direction: row;
+  flex: 2.5;
+  .student__body {
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 19px;
+    padding-right: 15px;
+    border-right: 2px solid #ebebf2;
+    flex: 1;
+    h5 {
+      color: #4a4a4a;
+    }
+  }
+}
+.payment-details__school {
+  padding: 19px 15px 0px;
+  flex: 1;
+  padding-left: 40px;
+  h5 {
+    color: #4a4a4a;
+  }
+}
+.img-student {
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
 }
