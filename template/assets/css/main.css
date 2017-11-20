@@ -34,13 +34,14 @@ header {
   header::after {
     content: '';
     position: absolute;
-    right: -100px;
-    top: -400px;
-    width: 1101px;
-    height: 600px;
-    background-color: #2f80ed;
+    right: 0px;
+    top: -100px;
+    width: 900px;
+    height: 750px;
+    background-image: url(../img/banners/rectangle-9-copy@3x.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     object-fit: contain;
-    transform: rotate(45deg);
     border-radius: 100px;
     z-index: -9; }
 
@@ -62,6 +63,7 @@ header {
 .sub-section {
   padding: 50px; }
 
+.nav
 .col-right {
   width: 50%;
   display: flex;
@@ -202,20 +204,47 @@ header {
 .features__item {
   padding: 30px; }
 
+.features__item-icon {
+  padding-bottom: 40px; }
+
 .features__item-body {
   font-size: 14px; }
+
+.features__item-title {
+  text-align: center; }
+
+.features__item-body {
+  text-align: center; }
 
 .svg {
   display: inline-block; }
 
 .svg--support {
-  background: url(../img/support.svg) 100% no-repeat; }
+  background-image: url(../img/icons/support.png);
+  height: 100px;
+  width: 100px;
+  background-size: 50%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
 
 .svg--fast {
-  background: url(../img/fast.svg) 100% no-repeat; }
+  background-image: url(../img/icons/fast.png);
+  height: 100px;
+  width: 100px;
+  background-size: 50%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
 
 .svg--secured {
-  background: url(../img/secured.svg) 100% no-repeat; }
+  background-image: url(../img/icons/secured-2.png);
+  height: 100px;
+  width: 100px;
+  background-size: 50%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
 
 .btn-default {
   border-radius: 25px;
@@ -289,6 +318,12 @@ input[type='text'] {
     height: 35px;
     width: 35px;
     right: 8px; }
+  .addon--send:hover {
+    cursor: pointer; }
+  .addon--send:focus {
+    outline: none; }
+  .addon--send:active {
+    padding-bottom: 3px; }
 
 * {
   box-sizing: border-box; }
@@ -326,13 +361,14 @@ header {
   header::after {
     content: '';
     position: absolute;
-    right: -100px;
-    top: -400px;
-    width: 1101px;
-    height: 600px;
-    background-color: #2f80ed;
+    right: 0px;
+    top: -100px;
+    width: 900px;
+    height: 750px;
+    background-image: url(../img/banners/rectangle-9-copy@3x.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     object-fit: contain;
-    transform: rotate(45deg);
     border-radius: 100px;
     z-index: -9; }
 
@@ -354,6 +390,7 @@ header {
 .sub-section {
   padding: 50px; }
 
+.nav
 .col-right {
   width: 50%;
   display: flex;
@@ -494,20 +531,47 @@ header {
 .features__item {
   padding: 30px; }
 
+.features__item-icon {
+  padding-bottom: 40px; }
+
 .features__item-body {
   font-size: 14px; }
+
+.features__item-title {
+  text-align: center; }
+
+.features__item-body {
+  text-align: center; }
 
 .svg {
   display: inline-block; }
 
 .svg--support {
-  background: url(../img/support.svg) 100% no-repeat; }
+  background-image: url(../img/icons/support.png);
+  height: 100px;
+  width: 100px;
+  background-size: 50%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
 
 .svg--fast {
-  background: url(../img/fast.svg) 100% no-repeat; }
+  background-image: url(../img/icons/fast.png);
+  height: 100px;
+  width: 100px;
+  background-size: 50%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
 
 .svg--secured {
-  background: url(../img/secured.svg) 100% no-repeat; }
+  background-image: url(../img/icons/secured-2.png);
+  height: 100px;
+  width: 100px;
+  background-size: 50%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
 
 .btn-default {
   border-radius: 25px;
@@ -581,6 +645,12 @@ input[type='text'] {
     height: 35px;
     width: 35px;
     right: 8px; }
+  .addon--send:hover {
+    cursor: pointer; }
+  .addon--send:focus {
+    outline: none; }
+  .addon--send:active {
+    padding-bottom: 3px; }
 
 .padding-top--40 {
   padding-top: 40px; }
@@ -588,3 +658,5 @@ input[type='text'] {
 .flex-end {
   display: flex;
   justify-content: flex-end; }
+  .flex-end .nav-link {
+    padding-right: 1rem; }

@@ -19,7 +19,7 @@
 .sub-section {
   padding: 50px;
 }
-
+.nav
 .col-right {
   width: 50%;
   display: flex;
@@ -185,20 +185,47 @@
 .features__item {
   padding: 30px;
 }
+.features__item-icon {
+  padding-bottom: 40px;
+}
 .features__item-body {
   font-size: 14px;
+}
+.features__item-title {
+  text-align: center;
+}
+.features__item-body {
+  text-align: center;
 }
 .svg {
   display: inline-block;
 }
 .svg--support {
-  background: url(../img/support.svg) 100% no-repeat;
+  background-image: url(../img/icons/support.png);
+  height: 100px;
+  width: 100px;
+  background-size: 50%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .svg--fast {
-  background: url(../img/fast.svg) 100% no-repeat;
+  background-image: url(../img/icons/fast.png);
+  height: 100px;
+  width: 100px;
+  background-size: 50%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .svg--secured {
-  background: url(../img/secured.svg) 100% no-repeat;
+  background-image: url(../img/icons/secured-2.png);
+  height: 100px;
+  width: 100px;
+  background-size: 50%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }

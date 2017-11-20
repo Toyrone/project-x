@@ -26,13 +26,14 @@ header {
   &::after {
     content: '';
     position: absolute;
-    right: -100px;
-    top: -400px;
-    width: 1101px;
-    height: 600px;
-    background-color: #2f80ed;
+    right: 0px;
+    top: -100px;
+    width: 900px;
+    height: 750px;
+    background-image: url(../img/banners/rectangle-9-copy@3x.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     object-fit: contain;
-    transform: rotate(45deg);
     border-radius: 100px;
     z-index: -9;
   }

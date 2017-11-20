@@ -51,6 +51,15 @@ input[type='text'] {
     width: 35px;
     right: 8px;
   }
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus {
+    outline: none;
+  }
+  &:active {
+    padding-bottom: 3px;
+  }
 }
 
 // .send {
